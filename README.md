@@ -45,5 +45,36 @@ The wiki has been completly reworked and is now available on [readthedocs.io](ht
 - To start the server automatically using Docker, execute `docker run -d --name py-kms --restart always -p 1688:1688 ghcr.io/py-kms-organization/py-kms`.
 - To show the help pages type: `python3 pykms_Server.py -h` and `python3 pykms_Client.py -h`.
 
+## Quick start Windows
+
+```
+"Install Dependencies.bat"
+"Start PY-KMS Server.bat"
+"Start PY-KMS WebUI Server.bat"
+
+```
+- Web server is host on port 8081 (You can change it in the PY-KMS WebUI Server)
+
+## Quick start Windows (Service)
+- Make sure you install [NSSM](https://nssm.cc/download) and to Add it to the PATH environment variable
+- This guide assumes that you have install tthe files in `py-kms-windows/py-kms` into `C:\Program Files\PY-KMS`
+
+```
+"Install Dependencies.bat"
+nssm install "PY-KMS Server" "C:\Program Files\PY-KMS\Start PY-KMS Server.bat"
+nssm install "PY-KMS WebGUI Server" "C:\Program Files\PY-KMS\Start PY-KMS WebUI Server.bat"
+nssm start "PY-KMS Server"
+nssm start "PY-KMS WebGUI Server"
+```
+
+## Uninstall Windows (Service)
+```
+nssm stop "PY-KMS Server"
+nssm stop "PY-KMS WebGUI Server"
+nssm remove "PY-KMS Server" confirm
+nssm remove "PY-KMS WebGUI Server" confirm
+```
+
+
 ## License
    - _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](./LICENSE)
