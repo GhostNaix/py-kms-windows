@@ -52,7 +52,7 @@ The wiki has been completly reworked and is now available on [readthedocs.io](ht
 "Start PY-KMS Server.bat"
 "Start PY-KMS WebUI Server.bat"
 ```
-- Web server is host on port 8081 (You can change it in the PY-KMS WebUI Server)
+- Web server is host on port 8081 (You can change it in the `Start PY-KMS WebUI Server.bat` script)
 
 ## Quick start Windows (Service)
 - Make sure you install [NSSM](https://nssm.cc/download) and to Add it to the PATH environment variable
