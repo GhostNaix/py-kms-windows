@@ -51,7 +51,6 @@ The wiki has been completly reworked and is now available on [readthedocs.io](ht
 "Install Dependencies.bat"
 "Start PY-KMS Server.bat"
 "Start PY-KMS WebUI Server.bat"
-
 ```
 - Web server is host on port 8081 (You can change it in the PY-KMS WebUI Server)
 
@@ -77,4 +76,8 @@ nssm remove "PY-KMS WebGUI Server" confirm
 
 
 ## License
+<<<<<<< HEAD
    - _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](./LICENSE)
+=======
+   - _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://github.com/SystemRage/py-kms/blob/master/LICENSE)
+>>>>>>> a6c31f9 (Update README.md)
