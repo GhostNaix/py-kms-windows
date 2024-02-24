@@ -55,8 +55,8 @@ The wiki has been completly reworked and is now available on [readthedocs.io](ht
 - Web server is host on port 8081 (You can change it in the `Start PY-KMS WebUI Server.bat` script)
 
 ## Quick start Windows (Service)
-- Make sure you install [NSSM](https://nssm.cc/download) and to Add it to the PATH environment variable
-- This guide assumes that you have install tthe files in `py-kms-windows/py-kms` into `C:\Program Files\PY-KMS`
+- Make sure you install [NSSM](https://nssm.cc/download) and to add it to the PATH environment variable
+- This guide assumes that you have install the files in `py-kms-windows/py-kms` into `C:\Program Files\PY-KMS`
 
 ```
 "Install Dependencies.bat"
