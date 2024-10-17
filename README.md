@@ -76,8 +76,4 @@ nssm remove "PY-KMS WebGUI Server" confirm
 
 
 ## License
-<<<<<<< HEAD
-   - _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](./LICENSE)
-=======
-   - _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://github.com/SystemRage/py-kms/blob/master/LICENSE)
->>>>>>> a6c31f9 (Update README.md)
+- _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](./LICENSE)
